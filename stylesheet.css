@@ -156,6 +156,7 @@ small {
 }
 
 .contactInfo {
+    width: 100%;
     font-size: 30px;
     text-align: center;
     padding: 20px;
@@ -171,6 +172,18 @@ footer {
   background-color: rgb(171, 174, 188);
   box-shadow: 10px 10px 5px;
 }
+
+@media (max-width: 768px)  {
+  .contactInfo {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+
+  }
+}
+
+}
+
 
 
 
